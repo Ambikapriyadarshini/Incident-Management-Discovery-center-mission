@@ -1,7 +1,12 @@
 specVersion: "3.1"
+type: application
 metadata:
   name: ns.incidents
-type: application
+
+customConfiguration:
+  ui5-tooling-modules:
+    plugins:
+      - module: "@sap/ux-ui5-tooling"
 
 framework:
   name: SAPUI5
@@ -16,10 +21,6 @@ framework:
     - name: sap.ui.table
     - name: sap.ushell
     - name: sap.suite.ui.generic.template
-
-customConfiguration:
-  fiori-tools:
-    localVersion: "1.0.0"
 
 builder:
   customTasks:
@@ -47,7 +48,3 @@ server:
         port: 35729
         path: webapp
         delay: 300
-
-dependencies:
-  - name: "@sap/ux-ui5-tooling"
-    type: dev
