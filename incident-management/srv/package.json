@@ -1,0 +1,15 @@
+{
+    "name": "incident-management-discovery-srv",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "cds run"
+    },
+    "dependencies": {
+      "@sap/cds": "^7",
+      "express": "^4"
+    },
+    "engines": {
+      "node": ">=16"
+    }
+  }
+  

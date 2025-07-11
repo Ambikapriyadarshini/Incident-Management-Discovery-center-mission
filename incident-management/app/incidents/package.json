@@ -10,8 +10,8 @@
   "main": "webapp/index.html",
   "devDependencies": {
     "@sap/ux-specification": "^1.114.1",
-    "@ui5/cli": "^4.0.19",
-    "@sap/ux-ui5-tooling": "^1.7.0"
+    "@ui5/cli": "^4.0.19"
+    
   },
   "scripts": {
     "build": "ui5 build --clean-dest --dest dist",

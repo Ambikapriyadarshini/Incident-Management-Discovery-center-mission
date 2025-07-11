@@ -1,12 +1,7 @@
 specVersion: "3.1"
-type: application
 metadata:
   name: ns.incidents
-
-customConfiguration:
-  ui5-tooling-modules:
-    plugins:
-      - module: "@sap/ux-ui5-tooling"
+type: application
 
 framework:
   name: SAPUI5
@@ -22,14 +17,7 @@ framework:
     - name: sap.ushell
     - name: sap.suite.ui.generic.template
 
-builder:
-  customTasks:
-    - name: "@sap/ux-ui5-tooling:build-fiori"
-      beforeTask: generateCachebusterInfo
-      configuration:
-        projectNamespace: ns/incidents
-        compress: true
-        destination: dist
+ 
 
 server:
   customMiddleware:
