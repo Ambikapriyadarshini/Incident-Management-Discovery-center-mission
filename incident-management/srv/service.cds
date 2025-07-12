@@ -1,4 +1,4 @@
-using { sap.capire.incidents as my } from '../db/schema';
+using { sap.capire.incidents as my } from '../db/schema.cds';
 
 /**
  * Service used by support personell, i.e. the incidents' 'processors'.

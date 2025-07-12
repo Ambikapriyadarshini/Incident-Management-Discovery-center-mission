@@ -7,7 +7,7 @@
         "description": "View scope"
       }
     ],
-    "roles": [
+    "role-templates": [
       {
         "name": "Viewer",
         "description": "Can view content",
